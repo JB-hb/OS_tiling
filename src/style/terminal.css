@@ -1,0 +1,18 @@
+.terminal{
+    background-color: rgba(47, 13, 77, 0.6);
+    padding: 10px;
+    color: white;
+    min-height: 100%;
+}
+.terminal p{
+    margin: 0;
+    text-align: left;
+}
+.terminal input{
+    background-color: rgba(47, 13, 77, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    width: fill;
+    font-size: 1.5rem;
+    color: white;
+}

@@ -1,0 +1,36 @@
+.task{
+    background-color: rgba(47, 13, 77, 0.6);
+    padding: 10px;
+    color: white;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        'pro memo'
+        'pro dis';
+}
+
+.task h3{
+    margin: 0;
+}
+
+.listaProcesos{
+    grid-area: pro;
+}
+
+.memoriaInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-area: memo;
+}
+
+.discoInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-area: dis;
+}

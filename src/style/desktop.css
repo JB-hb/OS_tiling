@@ -1,0 +1,8 @@
+.containerDesktop{
+    width: 80vw;
+    height: 100%;
+    background-image: url('../assets/tumblr_pxf3leXg811xptjc0o3_640.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
